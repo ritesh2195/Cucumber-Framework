@@ -1,0 +1,133 @@
+[
+  {
+    "source": "^I navigate to omayo website$",
+    "steps": [
+      {
+        "name": "I navigate to omayo website",
+        "aggregatedDurations": {
+          "average": 4.873229433,
+          "median": 4.8854987
+        },
+        "durations": [
+          {
+            "duration": 5.205024099,
+            "location": "omayologin.feature:5"
+          },
+          {
+            "duration": 4.8854987,
+            "location": "omayologin.feature:5"
+          },
+          {
+            "duration": 4.5291655,
+            "location": "omayologin.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter Username as \"([^\"]*)\" and Password as \"([^\"]*)\" into the fields$",
+    "steps": [
+      {
+        "name": "I enter Username as \"ritesh\" and Password as \"jdbunsnj\" into the fields",
+        "aggregatedDurations": {
+          "average": 0.48727,
+          "median": 0.48727
+        },
+        "durations": [
+          {
+            "duration": 0.48727,
+            "location": "omayologin.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I enter Username as \"SeleniumByArun\" and Password as \"Test143$\" into the fields",
+        "aggregatedDurations": {
+          "average": 0.6027755,
+          "median": 0.6027755
+        },
+        "durations": [
+          {
+            "duration": 0.6027755,
+            "location": "omayologin.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I enter Username as \"motoori\" and Password as \"pswd2\" into the fields",
+        "aggregatedDurations": {
+          "average": 0.420289001,
+          "median": 0.420289001
+        },
+        "durations": [
+          {
+            "duration": 0.420289001,
+            "location": "omayologin.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should login based on expected \"([^\"]*)\" status$",
+    "steps": [
+      {
+        "name": "User should login based on expected \"failure\" status",
+        "aggregatedDurations": {
+          "average": 0.0170466,
+          "median": 0.0170466
+        },
+        "durations": [
+          {
+            "duration": 0.019640801,
+            "location": "omayologin.feature:8"
+          },
+          {
+            "duration": 0.014452399,
+            "location": "omayologin.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "User should login based on expected \"success\" status",
+        "aggregatedDurations": {
+          "average": 0.250347901,
+          "median": 0.250347901
+        },
+        "durations": [
+          {
+            "duration": 0.250347901,
+            "location": "omayologin.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Login button$",
+    "steps": [
+      {
+        "name": "I click on Login button",
+        "aggregatedDurations": {
+          "average": 5.140828833,
+          "median": 5.145241401
+        },
+        "durations": [
+          {
+            "duration": 5.0923239,
+            "location": "omayologin.feature:7"
+          },
+          {
+            "duration": 5.145241401,
+            "location": "omayologin.feature:7"
+          },
+          {
+            "duration": 5.1849212,
+            "location": "omayologin.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

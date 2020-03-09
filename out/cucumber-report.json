@@ -1,0 +1,363 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10483070399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should only be able to login with valid credentials",
+        "description": "",
+        "id": "login-to-the-omayo-application;user-should-only-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 771472500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.closer(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5205024099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to omayo website",
+            "match": {
+              "location": "omayologin.I_navigate_to_omayo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487270000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Username as \"ritesh\" and Password as \"jdbunsnj\" into the fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ritesh",
+                  "offset": 21
+                },
+                {
+                  "val": "jdbunsnj",
+                  "offset": 46
+                }
+              ],
+              "location": "omayologin.I_enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5092323900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "omayologin.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19640801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should login based on expected \"failure\" status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failure",
+                  "offset": 37
+                }
+              ],
+              "location": "omayologin.User_should_login_based_on_expected_status(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@omayo"
+          },
+          {
+            "line": 3,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9775057800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should only be able to login with valid credentials",
+        "description": "",
+        "id": "login-to-the-omayo-application;user-should-only-be-able-to-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 762825799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.closer(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4885498700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to omayo website",
+            "match": {
+              "location": "omayologin.I_navigate_to_omayo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 602775500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Username as \"SeleniumByArun\" and Password as \"Test143$\" into the fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SeleniumByArun",
+                  "offset": 21
+                },
+                {
+                  "val": "Test143$",
+                  "offset": 54
+                }
+              ],
+              "location": "omayologin.I_enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5145241401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "omayologin.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250347901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should login based on expected \"success\" status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 37
+                }
+              ],
+              "location": "omayologin.User_should_login_based_on_expected_status(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@omayo"
+          },
+          {
+            "line": 3,
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10284239000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should only be able to login with valid credentials",
+        "description": "",
+        "id": "login-to-the-omayo-application;user-should-only-be-able-to-login-with-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 753672299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "omayologin.closer(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4529165500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to omayo website",
+            "match": {
+              "location": "omayologin.I_navigate_to_omayo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 420289001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Username as \"motoori\" and Password as \"pswd2\" into the fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "motoori",
+                  "offset": 21
+                },
+                {
+                  "val": "pswd2",
+                  "offset": 47
+                }
+              ],
+              "location": "omayologin.I_enter_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5184921200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "omayologin.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14452399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should login based on expected \"failure\" status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failure",
+                  "offset": 37
+                }
+              ],
+              "location": "omayologin.User_should_login_based_on_expected_status(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          },
+          {
+            "line": 3,
+            "name": "@omayo"
+          },
+          {
+            "line": 3,
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "Login to the omayo application",
+    "description": "",
+    "id": "login-to-the-omayo-application",
+    "keyword": "Feature",
+    "uri": "omayologin.feature"
+  }
+]

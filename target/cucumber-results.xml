@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="64.667288">
+    <testcase classname="Login to the omayo application" name="User should only be able to login with valid credentials" time="22.058802">
+        <system-out>
+            <![CDATA[Given I navigate to omayo website...........................................passed
+When I enter Username as "ritesh" and Password as "jdbunsnj" into the fields.passed
+And I click on Login button.................................................passed
+Then User should login based on expected "failure" status...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to the omayo application" name="User should only be able to login with valid credentials 2" time="21.421747">
+        <system-out>
+            <![CDATA[Given I navigate to omayo website...........................................passed
+When I enter Username as "SeleniumByArun" and Password as "Test143$" into the fields.passed
+And I click on Login button.................................................passed
+Then User should login based on expected "success" status...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login to the omayo application" name="User should only be able to login with valid credentials 3" time="21.186739">
+        <system-out>
+            <![CDATA[Given I navigate to omayo website...........................................passed
+When I enter Username as "motoori" and Password as "pswd2" into the fields..passed
+And I click on Login button.................................................passed
+Then User should login based on expected "failure" status...................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
